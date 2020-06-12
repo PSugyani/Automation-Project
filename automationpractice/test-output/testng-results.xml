@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37035" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37035" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:41Z">
+      <class name="com.laga.automationScript.YourlagaAutomationScript">
+        <test-method status="PASS" signature="createHtmltView()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="createHtmltView" is-config="true" duration-ms="19808" started-at="2020-06-11T18:50:44Z" finished-at="2020-06-11T18:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createHtmltView -->
+        <test-method status="PASS" signature="loadApplicationUrl()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="loadApplicationUrl" is-config="true" duration-ms="2" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplicationUrl -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="openBrowser" is-config="true" duration-ms="10" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loadLocater()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="loadLocater" is-config="true" duration-ms="3" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="PASS" signature="getCreateAccountTest()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="getCreateAccountTest" duration-ms="5" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreateAccountTest -->
+        <test-method status="FAIL" signature="postTestCaseExecution(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="postTestCaseExecution" is-config="true" duration-ms="36942" started-at="2020-06-11T18:51:04Z" finished-at="2020-06-11T18:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCreateAccountTest status=SUCCESS method=YourlagaAutomationScript.getCreateAccountTest()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.laga.automationScript.YourlagaAutomationScript.getCreateAccountTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.YourLaga.utility.WebAppCommon.clickIdentifierXpath(WebAppCommon.java:627)
+at com.YourLaga.utility.WebAppCommon.getLogOut(WebAppCommon.java:125)
+at com.YourLaga.utility.BrowserMethods.postTestCaseExecution(BrowserMethods.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCaseExecution -->
+        <test-method status="SKIP" signature="loadLocater()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="loadLocater" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="SKIP" signature="getDetailOfCreateAccountTest()[pri:1, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="getDetailOfCreateAccountTest" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.YourLaga.utility.WebAppCommon.clickIdentifierXpath(WebAppCommon.java:627)
+at com.YourLaga.utility.WebAppCommon.getLogOut(WebAppCommon.java:125)
+at com.YourLaga.utility.BrowserMethods.postTestCaseExecution(BrowserMethods.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetailOfCreateAccountTest -->
+        <test-method status="SKIP" signature="postTestCaseExecution(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="postTestCaseExecution" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCaseExecution -->
+        <test-method status="SKIP" signature="loadLocater()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="loadLocater" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLocater -->
+        <test-method status="SKIP" signature="getCustomerAddressDetailsTest()[pri:2, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="getCustomerAddressDetailsTest" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.YourLaga.utility.WebAppCommon.clickIdentifierXpath(WebAppCommon.java:627)
+at com.YourLaga.utility.WebAppCommon.getLogOut(WebAppCommon.java:125)
+at com.YourLaga.utility.BrowserMethods.postTestCaseExecution(BrowserMethods.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerAddressDetailsTest -->
+        <test-method status="SKIP" signature="postTestCaseExecution(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="postTestCaseExecution" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCaseExecution -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="loadAllTestLogor()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="loadAllTestLogor" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadAllTestLogor -->
+        <test-method status="SKIP" signature="closeAllBrowser()[pri:0, instance:com.laga.automationScript.YourlagaAutomationScript@40ef3420]" name="closeAllBrowser" is-config="true" duration-ms="0" started-at="2020-06-11T18:51:41Z" finished-at="2020-06-11T18:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllBrowser -->
+      </class> <!-- com.laga.automationScript.YourlagaAutomationScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

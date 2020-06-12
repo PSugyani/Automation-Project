@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Console Dashbord script]">
+  <test name="Campaign Progress Script">
+    <classes>
+      <class name="com.lrn.reportsScript.CampaignProgress"/>
+    </classes>
+  </test> <!-- Campaign Progress Script -->
+  <test name="Module Completion Script">
+    <classes>
+      <class name="com.lrn.reportsScript.ModuleCompletionScript"/>
+    </classes>
+  </test> <!-- Module Completion Script -->
+  <test name="User Progress Script">
+    <classes>
+      <class name="com.lrn.reportsScript.UserProgressScript"/>
+    </classes>
+  </test> <!-- User Progress Script -->
+  <test name="Campaign Progress Script(failed)">
+    <classes>
+      <class name="com.lrn.reportsScript.ModuleCompletionScript">
+        <methods>
+          <include name="loadLocater"/>
+          <include name="postTestCaseExecution"/>
+          <include name="loadAllTestLogor"/>
+          <include name="loadApplicationUrl"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.lrn.reportsScript.ModuleCompletionScript -->
+      <class name="com.lrn.reportsScript.CampaignProgress">
+        <methods>
+          <include name="loadLocater"/>
+          <include name="postTestCaseExecution"/>
+          <include name="loadAllTestLogor"/>
+          <include name="loadApplicationUrl"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="campaignProgressReportDetailsPagenationVerify"/>
+        </methods>
+      </class> <!-- com.lrn.reportsScript.CampaignProgress -->
+      <class name="com.lrn.reportsScript.UserProgressScript">
+        <methods>
+          <include name="loadLocater"/>
+          <include name="closeAllBrowser"/>
+          <include name="postTestCaseExecution"/>
+          <include name="loadAllTestLogor"/>
+          <include name="loadApplicationUrl"/>
+          <include name="openBrowser"/>
+          <include name="createHtmltView"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.lrn.reportsScript.UserProgressScript -->
+    </classes>
+  </test> <!-- Campaign Progress Script(failed) -->
+</suite> <!-- Failed suite [Console Dashbord script] -->
